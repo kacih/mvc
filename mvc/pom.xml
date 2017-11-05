@@ -38,7 +38,7 @@
 	        <connection>scm:git:https://github.com/kacih/mvc.git</connection>
 	        <url>https://github.com/kacih/mvc.git</url>
 	        <developerConnection>scm:git:https://github.com/kacih/mvc.git</developerConnection>
-	        <tag>Spring4MVCAngularJSExample-1.0.1</tag>
+	        <tag>v1.5</tag>
 	    </scm>
 	    <developers>
 	        <developer>
