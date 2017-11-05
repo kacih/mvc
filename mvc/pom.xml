@@ -3,7 +3,7 @@
 	<groupId>hka.springmvc</groupId>
 	<artifactId>Spring4MVCAngularJSExample</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.2</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<name>Spring4MVCAngularJSExample Maven Webapp</name>
 
 	<properties>
@@ -38,7 +38,7 @@
 	        <connection>scm:git:https://github.com/kacih/mvc.git</connection>
 	        <url>https://github.com/kacih/mvc.git</url>
 	        <developerConnection>scm:git:https://github.com/kacih/mvc.git</developerConnection>
-	        <tag>Spring4MVCAngularJSExample-1.0.2</tag>
+	        <tag>v1.5</tag>
 	    </scm>
 	    <developers>
 	        <developer>
