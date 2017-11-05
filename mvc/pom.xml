@@ -35,7 +35,30 @@
 			<version>1.2</version>
 		</dependency>
 	</dependencies>
-
+	 <scm>
+	        <connection>scm:git:https://github.com/kacih/mvcgit</connection>
+	        <url>https://github.com/kacih/mvcgit</url>
+	        <developerConnection>scm:git:https://github.com/kacih/mvcgit</developerConnection>
+	        <tag>v1.5</tag>
+	    </scm>
+	    <developers>
+	        <developer>
+	            <name>Habib KACI</name>
+	            <email>khabib_dz@yahoo.fr</email>
+	        </developer>
+	    </developers>
+	    <distributionManagement>
+	        <repository>
+	            <id>deployment</id>
+	            <name>Internal Releases</name>
+	            <url>http://localhost:8083/repository/releases/</url>
+	        </repository>
+	        <snapshotRepository>
+	            <id>deployment</id>
+	            <name>Internal Snapshot Releases</name>
+	            <url>http://localhost:8083/repository/snapshots/</url>
+	        </snapshotRepository>
+	    </distributionManagement>
 
 	<build>
 		<plugins>
