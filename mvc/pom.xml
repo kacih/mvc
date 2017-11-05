@@ -1,10 +1,9 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.websystique.springmvc</groupId>
+	<groupId>hka.springmvc</groupId>
 	<artifactId>Spring4MVCAngularJSExample</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>Spring4MVCAngularJSExample Maven Webapp</name>
 
 	<properties>
@@ -39,7 +38,7 @@
 	        <connection>scm:git:https://github.com/kacih/mvcgit</connection>
 	        <url>https://github.com/kacih/mvcgit</url>
 	        <developerConnection>scm:git:https://github.com/kacih/mvcgit</developerConnection>
-	        <tag>v1.5</tag>
+	        <tag>Spring4MVCAngularJSExample-1.0.1</tag>
 	    </scm>
 	    <developers>
 	        <developer>
@@ -81,6 +80,13 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
+			<plugin>
+		        <groupId>org.apache.maven.plugins</groupId>
+		        <artifactId>maven-release-plugin</artifactId>
+		        <version>2.5.3</version>
+		      </plugin>
+		    
+			  
 		</plugins>
 		<finalName>Spring4MVCAngularJSExample</finalName>
 	</build>
